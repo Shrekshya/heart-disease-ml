@@ -17,7 +17,7 @@ with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
 # App UI
-st.title("❤️ Heart Disease Prediction App")
+st.title("Heart Disease Prediction App")
 st.write("Enter patient details below to predict heart disease risk.")
 st.write("Models trained using 70/30 split. Best model: KNN (85.71% accuracy)")
 
