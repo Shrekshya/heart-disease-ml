@@ -35,3 +35,13 @@ for heart disease prediction using the UCI Heart Disease dataset.
 ## 🛠️ Tools Used
 - Python, Jupyter Notebook, VS Code
 - pandas, numpy, scikit-learn, matplotlib, seaborn, streamlit
+
+## 📸 Key Findings
+- 70/30 train/test split gave best results across all models
+- Decision Tree without tuning scored 98% due to overfitting — fixed with max_depth=5
+- KNN requires feature scaling due to distance-based calculations
+- In medical diagnosis, recall is more important than accuracy alone
+  
+## 👩‍💻 Author
+- **Shrekshya** — MSc Data Science and Analytics, University of Hertfordshire
+- GitHub: [Shrekshya](https://github.com/Shrekshya)
